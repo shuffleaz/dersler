@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shuffle University</title>
+    </head>
+    <body>
+
+        <!-- Form, Input Etiketi -->
+        <form action="" method="GET" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Istifadeci Girisi</legend>
+                <label for="username">istifadeci adi
+                    <input id="username" name="username" type="text" placeholder="Istifadeci Adi" value=""> <br>
+                </label>
+                <input name="pass" type="password" placeholder="Sifre" minlength="6" maxlength="12" required> <br>
+                <input name="pass" type="email" placeholder="Email" autofocus> <br>
+             </fieldset>
+             <input name="cinsiyyet" type="radio"> Qadin 
+             <input name="cinsiyyet" type="radio" checked> Kisi<br>
+             <input type="checkbox" checked> Qaydalari qebul edirem.<br>
+             <input name="profile" type="file" accept="image/jpeg"><br>
+            <input type="hidden" name="rutbe" value="istifadeci"><br>
+            <input type="color"><br>
+            <input type="number" min="4" max="10"><br>
+            <input type="tel"><br>
+            <input type="search"><br>
+            <input type="date"><br>
+            <input type="time"><br>
+            <input type="url"><br>
+            <input type="datetime-local"><br>
+            <input type="range" min="3" max="20" step="3"><br/>
+            <input type="submit">
+            <input type="reset">
+         </form>
+
+         <!-- Select -->
+         <select multiple name="olkeler">
+            <option value="az">Azerbaycan</option>
+            <option value="tr">Turkiye</option>
+            <option value="gr">Gurcustan</option>
+            <optgroup label="Asya">
+                   <option value="az">Azerbaycan</option>
+            </optgroup>
+        </select>
+
+        <!-- Data List -->
+        <input list="olkeler">
+        <datalist id="olkeler">
+           <option value="Azerbaycan">
+           <option value="Turkiye">
+           <option value="Gurcustan">
+        </datalist> -->
+
+        <!-- Textarea -->
+        <textarea name="mesajiniz" id="" cols="70" rows="20" placeholder="Mesajiniz"></textarea>
+
+        <!-- Button -->
+        <button type="button">Gonder</button>
+
+    </body>
+</html>
+
+
+<!-- <etiket xususiyyet="deyer"></etiket> -->
